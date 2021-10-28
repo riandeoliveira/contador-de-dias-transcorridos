@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador de Dias Transcorridos</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <video src="video/Pexels Videos 1196530.mp4" autoplay loop></video>
+    <h1>Contador de Dias Transcorridos</h1>
+    <hr id="hr">
+    <p id="dtI">Data inicial:</p>
+    <p id="dtF">Data final:</p>
+    <p id="diT">Dias transcorridos:</p>
+    <input id="dataI" title="Digite a primeira data" type="date" />
+    <input id="dataF" title="Digite a segunda data" type="date" />
+    <input disabled id="dias" title="Resultado em dias" type="text" />
+    <button id="calcular" onclick="calcular()" title="Calcule os dias">Calcular</button>
+    <button id="redefinir" onclick="redefinir()" title="Redefina os valores">Redefinir</button>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>

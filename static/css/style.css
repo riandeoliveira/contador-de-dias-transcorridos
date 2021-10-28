@@ -1,0 +1,84 @@
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: hsl(218, 23%, 18%);
+    color: white;
+    font: caption;
+}
+
+h1 {
+    color: black;
+    position: relative;
+    text-align: center;
+}
+
+#hr {
+    text-align: center;
+    height: 150px;
+    position: absolute;
+    right: 39.5%;
+    top: 6.9%;
+    width: 390px;
+}
+
+#dtI {
+    position: absolute;
+    right: 55.14%;
+    top: 7.7%;
+}
+
+#dtF {
+    position: absolute;
+    right: 55.7%;
+    top: 10%;
+}
+
+#diT {
+    position: absolute;
+    right: 52.5%;
+    top: 12.3%;
+}
+
+#dataI {
+    border: black 1px solid;
+    position: absolute;
+    right: 40%;
+    text-align: right;
+    top: 8.6%;
+}
+
+#dataF {
+    border: black 1px solid;
+    position: absolute;
+    right: 40%;
+    text-align: right;
+    top: 11.1%;
+}
+
+#dias {
+    border: rgb(255, 255, 255) 1px solid;
+    color: white;
+    position: absolute;
+    right: 40%;
+    text-align: center;
+    top: 13.6%;
+    width: 137.3px;
+}
+
+#calcular {
+    position: absolute;
+    right: 56%;
+    top: 20.8%;
+}
+
+#redefinir {
+    position: absolute;
+    right: 40%;
+    top: 20.8%;
+}
